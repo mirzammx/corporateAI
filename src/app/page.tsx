@@ -24,6 +24,19 @@ export default function Home() {
       }
     });
   }
+  const onLogin=()=>{
+    authClient.signIn.email({
+      email,
+      password,
+    },{
+      onError:()=>{
+        window.alert("something went wrong")
+      },
+      onSuccess:()=>{
+        window.alert("success")
+      }
+    });
+  }
   if(session){
     return(
       <div className="p4 flex flex-col gap-y-4">
@@ -35,12 +48,21 @@ export default function Home() {
   
  
 
-  return (<div className="p4 flex flex-col gap-y-4">
+  return (
+    <div className="flex flex-col gap-y-10">
+  <div className="p4 flex flex-col gap-y-4">
     <Input placeholder="name" value={name} onChange={(e)=>setName(e.target.value)}/>
     <Input placeholder="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
-    <Input placeholder="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
+    <Input placeholder="password" type="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
     <Button onClick={onSubmit}>Create user</Button>
 
+  </div>
+  <div className="p4 flex flex-col gap-y-4">
+    <Input placeholder="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
+    <Input placeholder="password" type="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
+    <Button onClick={onLogin}>Login</Button>
+
+  </div>
   </div>
   );
 }
