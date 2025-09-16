@@ -13,7 +13,7 @@ export const HomeView=()=>{
     )
   }
   return(
-    <div className="p4 flex flex-col gap-y-4">
+    <div className="p-4 flex flex-col gap-y-4">
         <p>logged in as {session.user.name}</p>
         <Button onClick={()=>authClient.signOut({
           fetchOptions:{
