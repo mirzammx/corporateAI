@@ -1,5 +1,5 @@
 import { CommandInput,CommandDialog, CommandList, CommandItem } from "@/components/ui/command";
-import { SetStateAction } from "react";
+import { Dispatch,SetStateAction } from "react";
 
 interface Props{
     open:boolean;
