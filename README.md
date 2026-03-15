@@ -1,13 +1,13 @@
 
 # My Meet AI
 
-**My Meet AI** is a revolutionary AI-powered video calling SaaS platform where every meeting includes an **AI agent trained for a specific role** that actively participates in the conversation in real time.
+** Meet AI** is a revolutionary AI-powered video calling SaaS platform where every meeting includes an **AI agent trained for a specific role** that actively participates in the conversation in real time.
 
 ---
 
 # Overview
 
-My Meet AI transforms traditional video conferencing by integrating **intelligent AI agents directly into live meetings**.
+Meet AI transforms traditional video conferencing by integrating **intelligent AI agents directly into live meetings**.
 
 These agents can act as:
 
