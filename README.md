@@ -1,81 +1,76 @@
- Meet AI
- Meet AI is a revolutionary AI-powered video calling SaaS platform where every meeting includes an AI agent trained for a specific role that actively participates in the conversation in real time. 
 
-Pasted text
+# My Meet AI
 
-Overview
+**My Meet AI** is a revolutionary AI-powered video calling SaaS platform where every meeting includes an **AI agent trained for a specific role** that actively participates in the conversation in real time.
 
- Meet AI transforms traditional video conferencing by integrating intelligent AI agents directly into live meetings.
+---
+
+# Overview
+
+My Meet AI transforms traditional video conferencing by integrating **intelligent AI agents directly into live meetings**.
 
 These agents can act as:
 
-Language tutors
+- Language tutors  
+- Interview coaches  
+- Sales assistants  
+- Custom AI roles  
 
-Interview coaches
+The AI doesn't just observe — it **actively helps during the conversation in real time**.
 
-Sales assistants
+---
 
-Custom AI roles
+# Key Features
 
-The AI doesn't just observe — it actively helps during the conversation in real time. 
+- Real-time AI responses powered by **OpenAI Realtime API**
+- Live video meetings using **Stream Video SDK**
+- Full-stack type safety with **tRPC and TanStack Query**
+- Modern React stack with **Next.js 15 and React 19**
+- **Server-side rendering** and server components for performance
 
-Pasted text
+---
 
-Key Features
+# Motivation
 
-Real-time AI responses powered by OpenAI Realtime API
-
-Live video meetings using Stream Video SDK
-
-Type-safe full stack with tRPC and TanStack Query
-
-Modern React stack with Next.js 15 and React 19
-
-Server-side rendering and server components for performance
-
-Motivation
-
-Traditional video conferencing platforms are passive. They allow communication but do not actively participate.
+Traditional video conferencing platforms are **passive**. They allow communication but do not actively participate.
 
 My Meet AI solves this by enabling AI agents that can:
 
-Assist in real time during meetings
+- Provide real-time assistance during meetings
+- Adapt to specific roles (tutor, coach, sales, etc.)
+- Enable scalable personalized interactions
+- Create interactive meeting experiences
 
-Adapt to specific roles (tutor, coach, sales, etc.)
+Example use cases:
 
-Scale personalized interactions
+- Practicing interviews
+- Learning languages
+- Sales training
+- AI assistants during meetings
 
-Create interactive meeting experiences
+---
 
-Examples of use cases:
+# Quick Start
 
-Practicing interviews
+## Prerequisites
 
-Learning languages
-
-Sales training
-
-AI assistants during meetings
-
-Quick Start
-Prerequisites
-
-Node.js 20+
-
-PostgreSQL database (Neon recommended)
+- Node.js **20+**
+- PostgreSQL database (**Neon recommended**)
 
 Required accounts:
 
-Stream (Video SDK)
+- Stream (Video SDK)
+- OpenAI (Realtime API)
+- Polar (Payments)
+- Inngest (Background jobs)
 
-OpenAI (Realtime API)
+---
 
-Polar (Payments)
+# Installation
 
-Inngest (Background jobs)
+## 1. Clone the Repository
 
-Installation
-1. Clone the Repository
+```bash
 git clone <repository-url>
 cd my-meet-ai
 2. Install Dependencies
@@ -90,7 +85,7 @@ or
 yarn install
 3. Environment Variables
 
-Create .env.local:
+Create .env.local
 
 # Database
 DATABASE_URL=
@@ -126,26 +121,26 @@ Open:
 
 http://localhost:3000
 Development Scripts
-Command	Purpose
+Command	Description
 npm run dev	Start development server
-npm run build	Production build
+npm run build	Build production version
 npm run start	Start production server
 npm run lint	Run ESLint
 npm run db:push	Push database schema
 npm run db:studio	Open Drizzle database GUI
-npm run dev:inngest	Start background job server
+npm run dev:inngest	Start Inngest dev server
 Usage
 Creating an AI Agent
 
-Go to Agents in the dashboard
+Navigate to Agents in the dashboard
 
 Click Create New Agent
 
 Configure:
 
-Name – agent name
+Name – Agent name
 
-Instructions – define the AI role (e.g., tutor, interview coach)
+Instructions – Define AI role (e.g. tutor, interview coach)
 
 Starting a Meeting
 
@@ -157,7 +152,7 @@ Select an AI agent
 
 Click Start Meeting
 
-The AI agent joins the call automatically.
+The AI agent will join automatically.
 
 During a Call
 
@@ -171,11 +166,11 @@ Camera controls
 
 Screen sharing
 
-Meeting recording
+Recording meetings
 
 Customizing AI Behavior
 
-Agents can be customized through:
+AI agents can be customized through:
 
 System prompts
 
@@ -183,7 +178,7 @@ Role-specific training
 
 Meeting context
 
-This allows the AI to behave differently depending on the meeting type.
+This allows AI to behave differently depending on the meeting type.
 
 Tech Stack
 Frontend
@@ -200,7 +195,7 @@ tRPC
 
 TanStack Query
 
-Next.js API routes
+Next.js API Routes
 
 Database
 
@@ -241,11 +236,11 @@ Steps
 
 Fork the repository
 
-Create a branch
+Create a feature branch
 
 git checkout -b feature/your-feature-name
 
-Make changes
+Make your changes
 
 Test your changes
 
@@ -282,10 +277,13 @@ Development Principles
 
 Type Safety using TypeScript and tRPC
 
-Server Components for performance
+Server Components for better performance
 
-Error Handling with proper boundaries
+Proper error handling
 
-Accessibility using WCAG guidelines
+Accessibility following WCAG guidelines
 
 Performance optimization
+
+
+If you want, I can also show you **how to upgrade this into a *
